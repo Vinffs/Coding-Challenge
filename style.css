@@ -1,0 +1,91 @@
+/* STRUCTURE & BACKGROUND */
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(00, 00, 00, 0.5);
+    border-radius: 20px;
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    padding-top: 100px;
+    margin-top: 45px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Logo/Title/Slogan + Navigation Block*/
+
+header img {
+    width: 250px;
+}
+
+header h1 {
+    color: #00dd00;
+    margin: 5px;
+}
+
+nav {
+    background-color: #00dd00;
+    padding: 10px 0 10px;
+}
+
+.container>nav,
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Option Blocks - Sections */
+
+main>section {
+    margin: 30px 0 30px;
+    text-align: left;
+}
+
+section>* {
+    display: inline-block;
+    margin: 3px;
+}
+
+section>h3 {
+    font-weight: normal;
+
+}
+
+
+
+/* Right Arrow Symbol */
+section>span:after {
+    content: "\21A6";
+}
+
+
+/* STATUS BAR */
+
+section>div {
+    border-radius: 5px;
+    border: 15px solid;
+}
+
+.orangestatus {
+    width: 30%;
+    color: #f5b453;
+}
+
+.greenstatus {
+    width: 60%;
+    color: #1ec31e;
+}
+
+.redstatus {
+    width: 15%;
+    color: #be4141;
+}
